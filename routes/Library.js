@@ -31,7 +31,7 @@ export const LibraryPageRoute = () => {
           <View style={styles.twoItemRow}>
             <Item
               imageUrl={require('../images/1.png')}
-              text="Story 1"
+              text="Good Morning"
               path="../images/1.png"
               onPress={() => {
                 navigation.navigate('st1_main');
@@ -40,7 +40,7 @@ export const LibraryPageRoute = () => {
             />
             <Item
               imageUrl={require('../images/2.jpg')}
-              text="Story 2"
+              text="Little Red Riding Hood"
               path="../images/2.jpg"
               onPress={() => {
                 navigation.navigate('st2_main');
@@ -51,7 +51,7 @@ export const LibraryPageRoute = () => {
           <View style={{...styles.twoItemRow, marginTop: '15%'}}>
             <Item
               imageUrl={require('../images/3.jpg')}
-              text="Story 3"
+              text="Who's her"
               path="../images/3.jpg"
               onPress={() => {
                 navigation.navigate('st3_main');
@@ -60,7 +60,7 @@ export const LibraryPageRoute = () => {
             />
             <Item
               imageUrl={require('../images/4.jpg')}
-              text="Story 4"
+              text="The First Programmer"
               path="../images/4.jpg"
               onPress={() => {
                 navigation.navigate('st4_main');
@@ -71,7 +71,7 @@ export const LibraryPageRoute = () => {
           <View style={styles.twoItemRow}>
             <Item
               imageUrl={require('../images/5.jpg')}
-              text="Story 5"
+              text="The First Computer Bug"
               path="../images/5.jpg"
               onPress={() => {
                 navigation.navigate('st5_main');
@@ -80,7 +80,7 @@ export const LibraryPageRoute = () => {
             />
             <Item
               imageUrl={require('../images/6.png')}
-              text="Story 6"
+              text="Jennie's Birthday Party"
               onPress={() => navigation.navigate('st6_main')}
               haveStar={true}
             />
@@ -89,13 +89,13 @@ export const LibraryPageRoute = () => {
           <View style={styles.twoItemRow}>
             <Item
               imageUrl={require('../images/7.png')}
-              text="Story 7"
+              text="The Key to Open the Door"
               onPress={() => navigation.navigate('st7_main')}
               haveStar={true}
             />
             <Item
               imageUrl={require('../images/8.png')}
-              text="Story 8"
+              text="Group Photo"
               onPress={() => navigation.navigate('st8_main')}
               haveStar={true}
             />
@@ -104,13 +104,13 @@ export const LibraryPageRoute = () => {
           <View style={styles.twoItemRow}>
             <Item
               imageUrl={require('../images/9.png')}
-              text="Story 9"
+              text="Art Class"
               onPress={() => navigation.navigate('st9_main')}
               haveStar={true}
             />
             <Item
               imageUrl={require('../images/10.png')}
-              text="Story 10"
+              text="Take a Break"
               onPress={() => navigation.navigate('st10_main')}
               haveStar={true}
             />
