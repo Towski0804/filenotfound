@@ -21,7 +21,7 @@ For mac:
   4. Connect and input Username “Administrator”,password “Test@500.com”
   5. You can view or copy php files through the path "C:\phpstudy_pro\WWW\webService"
   6. Visit the database through phpMyAdmin
-  [my image] (images/DB-Access.png)
+  [my image] (https://github.com/Towski0804/filenotfound/blob/main/images/DB-Access.png)
   Username is “root”, password is “test123456”
 
 For windows:
