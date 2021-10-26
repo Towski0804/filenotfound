@@ -33,6 +33,7 @@ export const UserAvartar = ({
       style={{
         display: 'flex',
         alignItems: 'center',
+        marginVertical: 10,
       }}>
       {state.photo.uri ? (
         <Pressable onPress={handleChoosePhoto}>
@@ -84,6 +85,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 15,
+    marginVertical: 15,
   },
   textStyle: {
     fontSize: 20,

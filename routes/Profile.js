@@ -75,6 +75,7 @@ export const ProfilePageRoute = () => {
             justifyContent: 'space-between',
             width: '100%',
             height: '90%',
+            margin: 5,
           }}>
           <View
             style={{
@@ -84,11 +85,22 @@ export const ProfilePageRoute = () => {
             }}>
             <View>
               <Text
-                style={styles.textStyle}
+                style={
+                  (styles.textStyle,
+                  {
+                    textAlign: 'center',
+                    paddingLeft: 20,
+                    color: 'blue',
+                    flexShrink: 1,
+                    fontWeight: 'bold',
+                    fontSize: 20,
+                    marginBottom: 10,
+                  })
+                }
                 onPress={() => {
                   navigation.navigate('Library');
                 }}>
-                Library
+                Go to Library
               </Text>
             </View>
             <View>
