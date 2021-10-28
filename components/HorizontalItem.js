@@ -16,7 +16,7 @@ const Styles = StyleSheet.create({
     color: 'purple',
     flexShrink: 1,
     fontWeight: 'bold',
-    fontSize: 20,
+    fontSize: 16,
     textAlign: 'center',
     // marginTop: 20,
   },

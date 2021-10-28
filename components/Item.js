@@ -6,6 +6,7 @@ import {
   Image,
   Pressable,
   AsyncStorage,
+  Alert,
 } from 'react-native';
 import {Button} from 'react-native-elements';
 
@@ -55,7 +56,7 @@ export const Item = ({
         )
           .then(json => {
             if (json.ok) {
-              alert('success');
+              Alert.alert('Success!', 'You could find it in your fav list.');
             }
           })
           .catch(error => {

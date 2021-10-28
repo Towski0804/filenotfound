@@ -51,6 +51,7 @@ export const LoginRoute = () => {
         <TextInput
           style={styles.input}
           // placeholder="Password"
+          secureTextEntry={true}
           autoCapitalize="none"
           placeholderTextColor="white"
           onChangeText={val => onChangeText('password', val)}

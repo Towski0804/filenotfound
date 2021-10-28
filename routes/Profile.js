@@ -113,28 +113,7 @@ export const ProfilePageRoute = () => {
                 style={{
                   flexDirection: 'row',
                   // height: '100%',
-                }}>
-                <HorizontalItem
-                  imageUrl={require('../images/1.png')}
-                  text="Good Morning"></HorizontalItem>
-                <HorizontalItem
-                  imageUrl={require('../images/1.png')}
-                  text="Good Morning"></HorizontalItem>
-              </View>
-              <View
-                style={{
-                  flexDirection: 'row',
-                  // height: '100%',
-                  // flex: 1,
-                }}
-                key="2">
-                <HorizontalItem
-                  imageUrl={require('../images/1.png')}
-                  text="Good Morning"></HorizontalItem>
-                <HorizontalItem
-                  imageUrl={require('../images/1.png')}
-                  text="Good Morning"></HorizontalItem>
-              </View>
+                }}></View>
             </PagerView>
 
             <View>
@@ -161,14 +140,7 @@ export const ProfilePageRoute = () => {
                 style={{
                   flexDirection: 'row',
                 }}
-                key="2">
-                <HorizontalItem
-                  imageUrl={require('../images/1.png')}
-                  text="Good Morning"></HorizontalItem>
-                <HorizontalItem
-                  imageUrl={require('../images/1.png')}
-                  text="Good Morning"></HorizontalItem>
-              </View>
+                key="2"></View>
             </PagerView>
           </View>
         </View>
